@@ -1,3 +1,5 @@
+AOS.init();
+
 // BURGER MENU //
 
 const burgerMenu = () => {
@@ -28,3 +30,4 @@ let typed = new Typed('#animattitle', {
     loop: true,
     stringsElement: '#type_string',  
 }) 
+
