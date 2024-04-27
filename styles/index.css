@@ -46,6 +46,14 @@ main {
     color: black;
 }
 
+.logo__header img {
+  width: 100px;
+}
+
+.basket img {
+  width: 50px;
+}
+
 
 .contact_block {
     display: flex;
