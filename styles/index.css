@@ -1,6 +1,11 @@
 @import url(./grid.css);
 @import url(./reset.css);
 @import url(./burg_menu.css);
+@import url(./esclusive.css);
+
+
+/* SLIDER  */
+@import url("https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css");
 
 /* font-family: "Inter", sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
@@ -102,173 +107,149 @@ main {
   }
   
 
-  /* ESCLUSIV  */
 
-  .page_title {
-    margin-top: 30px;
-    color: black;
-    text-transform: uppercase;
-    font-size: clamp(15px, 5vw, 40px);
-    text-align: center;
-    margin-bottom: 30px;
-}
+  /* newwww */
 
-.tovar_card {
-  cursor: pointer;
-    padding: 14px;
-    background-color: black;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    transition: transform 0.2s ease;
+  .swiper {
+    width: 80%;
+
   }
 
-.tovar_card:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s ease;
-}
-
-.tovar_card img {
-    width: 100%;
-}
-
-.card_inf_block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 11px;
-    margin-top: 12px;
-}
-
-.tovar_name {
-    font-size: clam(20px, 5ww, 13px);
-    font-size: 12px;
-}
-
-.esclus_cardsss {
-  align-items: center;
-  justify-content: center;
-}
 
 
 
-/* FOOTER  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* FOOTER  */
 
 .footer {
-  margin-top: 90px;
-  background-color: #000000;
-  padding: 30px;
-}
-
-.foot_nav {
-  justify-content: flex-start ;
-}
-
-.foot_conblock {
-  padding-bottom: 30px;
-  border-bottom: 0.6px solid #D1D1D1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.foot_numb {
-  color: white;
-}
-
-.licencsion_block {
-  margin-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.politick {
-  font-size: 13px;
-  width: 358px;
-  font-weight: 300;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:817px) {
-    .logo__header img {
-        width: 80px;
-    }
-
-    .basket img {
-        width: 50px;
-    }
-
-
-}
- 
-
-
-
-
-
-
-@media (max-width: 580px ) {
-    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm { 
-        width: auto;
-    }
-
-    .head_nav_list {
-        gap: 0;
-    }
- 
-}
-
-@media (max-width: 515px ) {
-   .under_header_hidee {
-    display: none;
+    margin-top: 90px;
+    background-color: #000000;
+    padding: 30px;
+  }
+  
+  .foot_nav {
+    justify-content: flex-start ;
+  }
+  
+  .foot_conblock {
+    padding-bottom: 30px;
+    border-bottom: 0.6px solid #D1D1D1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .foot_numb {
+    color: white;
+  }
+  
+  .licencsion_block {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .politick {
+    font-size: 13px;
+    width: 358px;
+    font-weight: 300;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width:817px) {
+      .logo__header img {
+          width: 80px;
+      }
+  
+      .basket img {
+          width: 50px;
+      }
+  
+  
+  }
    
-   }
-
-   .logo__header img {
-    width: 70px;
-}
-
-.basket img {
-    width: 40px;
-}
-
-   .header {
-    border-bottom: 3px solid;
-    color: black;
-   }
-
-   .head_nav_list {
-
-    padding: 60px 20px;
-    gap: 30px;
-    flex-direction: column;
-    align-items: self-start;
-}
-
-.head_nav_item {
-    font-size: clamp(9px, 5vw, 50px);
-}
-
-   .burger_menu {
-    display: block;
-   }
-
-   .header_nubm {
-    display: none;
-   } 
-
-
-
-}
+  
+  
+  
+  
+  
+  
+  @media (max-width: 580px ) {
+      .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm { 
+          width: auto;
+      }
+  
+      .head_nav_list {
+          gap: 0;
+      }
+   
+  }
+  
+  @media (max-width: 515px ) {
+     .under_header_hidee {
+      display: none;
+     
+     }
+  
+     .logo__header img {
+      width: 70px;
+  }
+  
+  .basket img {
+      width: 40px;
+  }
+  
+     .header {
+      border-bottom: 3px solid;
+      color: black;
+     }
+  
+     .head_nav_list {
+  
+      padding: 60px 20px;
+      gap: 30px;
+      flex-direction: column;
+      align-items: self-start;
+  }
+  
+  .head_nav_item {
+      font-size: clamp(9px, 5vw, 50px);
+  }
+  
+     .burger_menu {
+      display: block;
+     }
+  
+     .header_nubm {
+      display: none;
+     } 
+  
+  
+  
+  }
