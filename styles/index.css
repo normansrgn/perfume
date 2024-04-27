@@ -232,14 +232,28 @@ main {
   
      .head_nav_list {
   
-      padding: 60px 20px;
+      padding: 60px 0px;
       gap: 30px;
       flex-direction: column;
       align-items: self-start;
   }
   
   .head_nav_item {
-      font-size: clamp(9px, 5vw, 50px);
+      font-size: 15px;
+  }
+
+  .foot_conblock {
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  .licencsion_block {
+    flex-direction: column-reverse;
+    align-items: self-start;
+    gap: 20px;
+  }
+  .politick {
+    width: auto;
   }
   
      .burger_menu {
