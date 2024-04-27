@@ -2,9 +2,6 @@
 @import url(./reset.css);
 @import url(./burg_menu.css);
 
-/* AOS */
-@import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
-
 /* font-family: "Inter", sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
@@ -109,7 +106,7 @@ main {
     padding: 14px;
     background-color: black;
     border-radius: 12px;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 .tovar_card img {
@@ -126,49 +123,53 @@ main {
 }
 
 .tovar_name {
+    font-size: clam(20px, 5ww, 13px);
     font-size: 12px;
 }
 
 .esclus_cardsss {
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
+
 
 
 /* FOOTER  */
 
 .footer {
-    background-color: #000000;
-    padding: 30px;
+  background-color: #000000;
+  padding: 30px;
 }
 
 .foot_nav {
-    justify-content: flex-start ;
+  justify-content: flex-start ;
 }
 
 .foot_conblock {
-    padding-bottom: 30px;
-    border-bottom: 0.6px solid #D1D1D1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 0.6px solid #D1D1D1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .foot_numb {
-    color: white;
+  color: white;
 }
 
 .licencsion_block {
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .politick {
-    font-size: 13px;
-    width: 358px;
-    font-weight: 300;
+  font-size: 13px;
+  width: 358px;
+  font-weight: 300;
 }
+
 
 
 
@@ -210,10 +211,6 @@ main {
     gap: 30px;
     flex-direction: column;
     align-items: self-start;
-}
-
-.under_header {
-    padding: 1px;
 }
 
 .head_nav_item {
