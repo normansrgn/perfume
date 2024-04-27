@@ -137,6 +137,7 @@ main {
 /* FOOTER  */
 
 .footer {
+  margin-top: 90px;
   background-color: #000000;
   padding: 30px;
 }
