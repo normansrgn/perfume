@@ -99,13 +99,14 @@ main {
     text-transform: uppercase;
     font-size: clamp(15px, 5vw, 40px);
     text-align: center;
-
+    margin-bottom: 30px;
 }
 
 .tovar_card {
     padding: 14px;
     background-color: black;
     border-radius: 12px;
+    margin-bottom: 17px;
 }
 
 .tovar_card img {
@@ -122,9 +123,12 @@ main {
 }
 
 .tovar_name {
-    font-size: clam(20px, 5ww, 13px);
+    font-size: 12px;
 }
 
+.esclus_cardsss {
+    justify-content: center;
+}
 
 
 
@@ -166,6 +170,10 @@ main {
     gap: 30px;
     flex-direction: column;
     align-items: self-start;
+}
+
+.under_header {
+    padding: 1px;
 }
 
 .head_nav_item {
