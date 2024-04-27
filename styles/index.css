@@ -134,6 +134,43 @@ main {
 }
 
 
+/* FOOTER  */
+
+.footer {
+    background-color: #000000;
+    padding: 30px;
+}
+
+.foot_nav {
+    justify-content: flex-start ;
+}
+
+.foot_conblock {
+    padding-bottom: 30px;
+    border-bottom: 0.6px solid #D1D1D1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot_numb {
+    color: white;
+}
+
+.licencsion_block {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.politick {
+    font-size: 13px;
+    width: 358px;
+    font-weight: 300;
+}
+
+
 
 
 
