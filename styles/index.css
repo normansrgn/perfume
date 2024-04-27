@@ -183,6 +183,18 @@ main {
 
 
 
+@media (max-width:817px) {
+    .logo__header img {
+        width: 80px;
+    }
+
+    .basket img {
+        width: 50px;
+    }
+
+
+}
+ 
 
 
 
@@ -204,6 +216,19 @@ main {
    .under_header_hidee {
     display: none;
    
+   }
+
+   .logo__header img {
+    width: 70px;
+}
+
+.basket img {
+    width: 40px;
+}
+
+   .header {
+    border-bottom: 3px solid;
+    color: black;
    }
 
    .head_nav_list {
