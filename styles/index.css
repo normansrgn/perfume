@@ -63,7 +63,10 @@ main {
 
 .under_header {
     background-color: black;
-    padding: 7px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .head_nav_item {
@@ -103,10 +106,17 @@ main {
 }
 
 .tovar_card {
+  cursor: pointer;
     padding: 14px;
     background-color: black;
     border-radius: 12px;
     margin-bottom: 20px;
+    transition: transform 0.2s ease;
+  }
+
+.tovar_card:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
 }
 
 .tovar_card img {
