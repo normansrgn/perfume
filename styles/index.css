@@ -66,6 +66,7 @@ main {
 }
 
 .head_nav_item {
+    font-size: clamp(9px, 5vw, 12px);
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -76,7 +77,7 @@ main {
   .head_nav_item::before {
     content: '';
     position: absolute;
-    bottom: -3px;
+    bottom: -2px;
     left: 0;
     width: 0;
     height: 1px; /* Высота подчеркивания */
@@ -88,3 +89,72 @@ main {
     width: 100%; /* Полная ширина подчеркивания при наведении */
   }
   
+
+  /* ESCLUSIV  */
+
+  .page_title {
+    margin-top: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-size: clamp(15px, 5vw, 40px);
+    text-align: center;
+
+}
+
+.tovar_card {
+    padding: 14px;
+    background-color: black;
+    border-radius: 12px;
+}
+
+.tovar_card img {
+    width: 100%;
+}
+
+.card_inf_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 11px;
+    margin-top: 12px;
+}
+
+.tovar_name {
+    font-size: clam(20px, 5ww, 13px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 580px ) {
+    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm { 
+        width: auto;
+    }
+
+    .head_nav_list {
+        gap: 0;
+    }
+ 
+}
+
+@media (max-width: 515px ) {
+   
+
+
+}
